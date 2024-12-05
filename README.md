@@ -21,10 +21,11 @@ class GitHubProfile:
   
   def fun_fact(self):
     facts = [
-      "I can debug faster than I can decide what to eat for lunch.",
+      "I'm true to this not new to this.",
       "Tabs over spaces. Just kidding—I'm flexible!",
-      "My keyboard's most used key is Backspace. 🫠",
-      "Code, sleep, repeat: the cycle of greatness."
+      "My keyboard's most used key is Backspace.",
+      "I have a knack for finding bugs. Unfortunately, they tend to find me first.",
+      "Nothing surprises me anymore....almost."
       ]
     return random.choice(facts)
   
