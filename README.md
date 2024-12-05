@@ -1,4 +1,4 @@
-<h1 align="center">hey there 👋</h1>
+<h1 align="center">Hey! I'm Trishanna 👋</h1>
 
 ###
 
@@ -6,7 +6,32 @@
 
 ###
 
-<p align="left">I'm Trishanna Ford from Kingston, Jamaica<br><br>- 🔭 I’m working as ...<br>- 📚 I'm currently learning ...<br>- ⚡ In my free time I ...</p>
+``` python
+import random
+
+class GitHubProfile:
+  def __init__(self, username):
+    self.username = username
+    self.skills = ["Problem Solving", "Coding", "Debugging", "Learning"]
+  
+  def display(self):
+    print(f"👋 Hi, I'm {self.username}!")
+    print(f"💻 Skills: {', '.join(self.skills)}")
+    print(f"🌟 Random Fun Fact: {self.fun_fact()}")
+  
+  def fun_fact(self):
+    facts = [
+      "I can debug faster than I can decide what to eat for lunch.",
+      "Tabs over spaces. Just kidding—I'm flexible!",
+      "My keyboard's most used key is Backspace. 🫠",
+      "Code, sleep, repeat: the cycle of greatness."
+      ]
+    return random.choice(facts)
+  
+  profile = GitHubProfile("Bordeaux2294")
+  profile.display()
+
+```
 
 ###
 
@@ -62,10 +87,21 @@
 ###
 
 <br clear="both">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
-  <img alt="github-snake" src="github-snake.svg" />
+
+ <picture>
+  <source 
+    media="(prefers-color-scheme: dark)" 
+    srcset="https://github.com/Bordeaux2294/Bordeaux2294/blob/output/github-contribution-grid-snake-dark.svg" 
+  />
+  <source 
+    media="(prefers-color-scheme: light)" 
+    srcset="https://github.com/Bordeaux2294/Bordeaux2294/blob/output/github-contribution-grid-snake.svg" 
+  />
+  <img 
+    alt="github-snake" 
+    src="https://github.com/Bordeaux2294/Bordeaux2294/blob/output/github-contribution-grid-snake.svg" 
+  />
 </picture>
+
 
 ###
